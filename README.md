@@ -59,9 +59,9 @@ Este proyecto utiliza el dataset "DiaData".
 
 Para entrenar el modelo desde cero, ejecuta el script 'train_model.py' desde tu terminal:
 
-``bash
+```bash
 python train_model.py
-
+```
 
 Esto procesará los datos y creará una nueva carpeta llamada `outputs/` con el modelo entrenado, el escalador y los reportes de resultados.
 
@@ -71,3 +71,38 @@ Para lanzar la interfaz de usuario:
 
 ``bash
 python app.py
+```
+
+---
+
+## 💻 Vista Previa de la Interfaz
+
+La interfaz gráfica (`app.py`) permite ingresar datos del paciente para realizar predicciones (demo) y guardar registros.
+
+![Vista Previa de la Interfaz de Usuario](assets/app_preview.png)
+
+---
+
+## 📊 Resultados del Modelo
+
+Aquí se muestran algunos de los resultados clave obtenidos durante la evaluación del modelo (generados por `train_model.py`).
+
+**Error (MSE y MAE)**
+*Se observa la convergencia del modelo durante el entrenamiento.*
+![Gráfica de MSE y MAE](assets/mse_mae.png)
+
+**Predicciones vs. Valores Reales (Test)**
+*Comparativa entre los valores reales de glucosa y las predicciones del modelo en el conjunto de prueba.*
+![Gráfica de Real vs Predicho](assets/real_vs_predicha.png)
+
+---
+
+## 🧑‍🎓 Autores
+
+Basado en el artículo `CIMCYT2025_Ibanez_Glucosa.pdf`:
+
+* **Oscar Jose Maria Pedrero De La Cruz** (Universidad Politécnica de Chiapas)
+* **Georgina Hernández Santiz** (Universidad Politécnica de Chiapas)
+* **Dorian Alberto Ibáñez Nangüelú** (Instituto Tecnológico de Tuxtla Gutiérrez)
+* **Norberto Urbina Brito** (Universidad Politécnica de Chiapas)
+* **Christian Roberto Ibáñez Nangüelú** (Universidad Politécnica de Chiapas)
