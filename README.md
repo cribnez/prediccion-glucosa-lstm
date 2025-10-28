@@ -12,7 +12,7 @@ El modelo utiliza antecedentes y datos recopilados del paciente (como datos de M
 
 * `🧠 train_model.py`: Script principal para el preprocesamiento de datos, la construcción del modelo LSTM, el entrenamiento y la evaluación.
 * `💻 app.py`: Interfaz gráfica de usuario (GUI) desarrollada con Tkinter para realizar predicciones (demo) e ingresar datos del paciente.
-* `📄 CIMCYT2025_Ibanez_Glucosa.pdf`: Artículo de investigación que describe el proyecto, la metodología y los resultados.
+* `📄 CIMCYT2025_Ibanez_Glucosa.pdf`: Artículo de investigación que describe el proyecto, la metodología y los resultados (ubicado en la carpeta `/docs/`).
 * `📦 requirements.txt`: Lista de dependencias de Python necesarias para ejecutar el proyecto.
 
 ## ⚙️ Instalación
@@ -21,7 +21,7 @@ Sigue estos pasos para configurar el proyecto en tu máquina local.
 
 1.  **📥 Clona este repositorio:**
     ```bash
-    git clone [https://github.com/TU-USUARIO/prediccion-glucosa-lstm.git](https://github.com/TU-USUARIO/prediccion-glucosa-lstm.git)
+    git clone https://github.com/TU-USUARIO/prediccion-glucosa-lstm.git
     cd prediccion-glucosa-lstm
     ```
     *(Recuerda cambiar `TU-USUARIO` por tu nombre de usuario de GitHub)*
@@ -40,17 +40,19 @@ Sigue estos pasos para configurar el proyecto en tu máquina local.
 
 ## 🚀 Uso
 
+El flujo de trabajo del proyecto se divide en entrenar el modelo y ejecutar la interfaz.
+
 ### 1. 💾 Obtener los Datos
 
 Este proyecto utiliza el dataset "DiaData".
 
 > **⚠️ ¡Importante!**
-> Los datos no están incluidos en este repositorio. Debes **descargar el dataset por tu cuenta** y colocarlo en una carpeta.
+> Los datos no están incluidos en este repositorio. Debes **descargar el dataset por tu cuenta** y colocar los archivos `.csv` dentro de la carpeta `/data/`.
 >
-> Una vez tengas los datos, abre el archivo `train_model.py` y actualiza la siguiente línea con la ruta a tu carpeta de datos:
+> Una vez tengas los datos, abre el archivo `train_model.py` y actualiza la siguiente línea con la ruta a tu carpeta de datos (o asegúrate de que apunte a la carpeta `/data/`):
 > ```python
 > # Línea 17 (aprox) en train_model.py
-> DATA_DIR = r"C:\RUTA\A\TU\CARPETA\DiaData"
+> DATA_DIR = r"data" # O r"C:\RUTA\A\TU\CARPETA\DiaData"
 > ```
 
 ### 2. 🧠 Entrenamiento del Modelo
@@ -59,14 +61,3 @@ Para entrenar el modelo desde cero, ejecuta el script `train_model.py` desde tu 
 
 ```bash
 python train_model.py
-
-
-### 3. 📊 Resultados del Modelo
-
-Aquí se muestran algunos de los resultados clave obtenidos durante la evaluación del modelo en el script `train_model.py`.
-
-**Error (MSE y MAE)**
-![Gráfica de MSE y MAE](assets/mse_mae.png)
-
-**Predicciones vs. Valores Reales (Test)**
-![Gráfica de Real vs Predicho](assets/RealvsPredicha.png)
