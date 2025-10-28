@@ -57,7 +57,17 @@ Este proyecto utiliza el dataset "DiaData".
 
 ### 2. 🧠 Entrenamiento del Modelo
 
-Para entrenar el modelo desde cero, ejecuta el script `train_model.py` desde tu terminal:
+Para entrenar el modelo desde cero, ejecuta el script 'train_model.py' desde tu terminal:
 
-```bash
+``bash
 python train_model.py
+
+
+Esto procesará los datos y creará una nueva carpeta llamada `outputs/` con el modelo entrenado, el escalador y los reportes de resultados.
+
+### 3. 🖥️ Ejecutar la Interfaz Gráfica
+
+Para lanzar la interfaz de usuario:
+
+``bash
+python app.py
