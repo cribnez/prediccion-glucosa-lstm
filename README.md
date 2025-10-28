@@ -59,3 +59,14 @@ Para entrenar el modelo desde cero, ejecuta el script `train_model.py` desde tu 
 
 ```bash
 python train_model.py
+
+
+### 3. 📊 Resultados del Modelo
+
+Aquí se muestran algunos de los resultados clave obtenidos durante la evaluación del modelo en el script `train_model.py`.
+
+**Error (MSE y MAE)**
+![Gráfica de MSE y MAE](assets/mse_mae.png)
+
+**Predicciones vs. Valores Reales (Test)**
+![Gráfica de Real vs Predicho](assets/RealvsPredicha.png)
