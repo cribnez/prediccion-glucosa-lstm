@@ -99,8 +99,6 @@ Aquí se muestran algunos de los resultados clave obtenidos durante la evaluaci�
 
 ## 🧑‍🎓 Autores
 
-Basado en el artículo `CIMCYT2025_Ibanez_Glucosa.pdf`:
-
 * **Oscar Jose Maria Pedrero De La Cruz** (Universidad Politécnica de Chiapas)
 * **Georgina Hernández Santiz** (Universidad Politécnica de Chiapas)
 * **Dorian Alberto Ibáñez Nangüelú** (Instituto Tecnológico de Tuxtla Gutiérrez)
