@@ -1,0 +1,8 @@
+tensorflow
+pandas
+numpy
+python-dateutil
+tqdm
+scikit-learn
+joblib
+matplotlib
