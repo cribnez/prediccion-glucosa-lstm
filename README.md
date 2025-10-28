@@ -69,7 +69,7 @@ Esto procesará los datos y creará una nueva carpeta llamada `outputs/` con el 
 
 Para lanzar la interfaz de usuario:
 
-``bash
+```bash
 python app.py
 ```
 
