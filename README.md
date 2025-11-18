@@ -96,11 +96,3 @@ Aquí se muestran algunos de los resultados clave obtenidos durante la evaluaci�
 ![Gráfica de Real vs Predicho](assets/real_vs_predicha.png)
 
 ---
-
-## 🧑‍🎓 Autores
-
-* **Oscar Jose Maria Pedrero De La Cruz** (Universidad Politécnica de Chiapas)
-* **Georgina Hernández Santiz** (Universidad Politécnica de Chiapas)
-* **Dorian Alberto Ibáñez Nangüelú** (Instituto Tecnológico de Tuxtla Gutiérrez)
-* **Norberto Urbina Brito** (Universidad Politécnica de Chiapas)
-* **Christian Roberto Ibáñez Nangüelú** (Universidad Politécnica de Chiapas)
