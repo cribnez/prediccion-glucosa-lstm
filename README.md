@@ -96,3 +96,21 @@ Aquí se muestran algunos de los resultados clave obtenidos durante la evaluaci�
 ![Gráfica de Real vs Predicho](assets/real_vs_predicha.png)
 
 ---
+
+## 📄 Publicación Académica
+
+Este proyecto ha sido documentado en un artículo académico publicado en la revista *Tecnología Digital*.  
+El documento completo también se encuentra disponible en la carpeta `docs` de este repositorio:
+
+<p align="center">
+  <a href="docs/articulo_glucosa_lstm.pdf" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="Artículo en PDF" width="120">
+    <br><em>Predicción no invasiva de glucosa en pacientes con diabetes tipo 1 mediante LSTM</em>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.revistatecnologiadigital.com/pdf/15_03_008_prediccion_no_invasiva_glucosadiabetes_tipo_1_LSTM.pdf" target="_blank">
+    📎 <em>Acceso al artículo original en la revista Tecnología Digital</em>
+  </a>
+</p>
